@@ -1,11 +1,3 @@
---[[
-    GD50
-    Angry Birds
-    
-    Author: Colton Ogden
-    cogden@cs50.harvard.edu
-]]
-
 Class = require 'lib/class'
 push = require 'lib/push'
 Timer = require 'lib/knife.timer'
