@@ -1,7 +1,7 @@
 PlayState = Class{__includes = BaseState}
 
 function PlayState:init() 
-    -- self.level = Level() 
+    self.level = Level() 
 end
 
 function PlayState:update(dt) 
@@ -9,10 +9,10 @@ function PlayState:update(dt)
         love.event.quit() 
     end
 
-    -- self.level:update(dt)
+    self.level:update(dt)
 end
 
 
 function PlayState:render() 
-    -- self.level:render()
+    self.level:render()
 end
